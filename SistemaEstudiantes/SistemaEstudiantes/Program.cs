@@ -16,7 +16,7 @@ namespace SistemaEstudiantes
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BienvenidaSistemaForm());
+            Application.Run(new DashboardForm());
         }
     }
 }

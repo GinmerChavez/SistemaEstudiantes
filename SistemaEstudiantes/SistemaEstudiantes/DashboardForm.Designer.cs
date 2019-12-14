@@ -38,9 +38,10 @@
             this.SalirtoolStripButton = new System.Windows.Forms.ToolStripButton();
             this.tiempoToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.checkToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.sexoToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.EstudianteToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.baseDatosToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.UsuarioActualtoolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PrincipalMenuStrip.SuspendLayout();
             this.PrincipalToolStrip.SuspendLayout();
             this.PrincipalStatusStrip.SuspendLayout();
@@ -60,7 +61,8 @@
             // menúToolStripMenuItem
             // 
             this.menúToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cerrarToolStripMenuItem});
+            this.cerrarToolStripMenuItem,
+            this.abrirToolStripMenuItem});
             this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
             this.menúToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menúToolStripMenuItem.Text = "Menú";
@@ -83,7 +85,7 @@
             this.SalirtoolStripButton,
             this.tiempoToolStripButton,
             this.checkToolStripButton,
-            this.sexoToolStripButton,
+            this.EstudianteToolStripButton,
             this.baseDatosToolStripButton});
             this.PrincipalToolStrip.Location = new System.Drawing.Point(0, 24);
             this.PrincipalToolStrip.Name = "PrincipalToolStrip";
@@ -108,7 +110,7 @@
             this.SalirtoolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.SalirtoolStripButton.Name = "SalirtoolStripButton";
             this.SalirtoolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.SalirtoolStripButton.Text = "toolStripButton1";
+            this.SalirtoolStripButton.Text = "Salir";
             // 
             // tiempoToolStripButton
             // 
@@ -117,7 +119,7 @@
             this.tiempoToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tiempoToolStripButton.Name = "tiempoToolStripButton";
             this.tiempoToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.tiempoToolStripButton.Text = "toolStripButton2";
+            this.tiempoToolStripButton.Text = "Hora";
             this.tiempoToolStripButton.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // checkToolStripButton
@@ -127,16 +129,16 @@
             this.checkToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.checkToolStripButton.Name = "checkToolStripButton";
             this.checkToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.checkToolStripButton.Text = "toolStripButton3";
+            this.checkToolStripButton.Text = "Confirmar";
             // 
-            // sexoToolStripButton
+            // EstudianteToolStripButton
             // 
-            this.sexoToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.sexoToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("sexoToolStripButton.Image")));
-            this.sexoToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.sexoToolStripButton.Name = "sexoToolStripButton";
-            this.sexoToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.sexoToolStripButton.Text = "toolStripButton4";
+            this.EstudianteToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.EstudianteToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("EstudianteToolStripButton.Image")));
+            this.EstudianteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.EstudianteToolStripButton.Name = "EstudianteToolStripButton";
+            this.EstudianteToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.EstudianteToolStripButton.Text = "Estudiante";
             // 
             // baseDatosToolStripButton
             // 
@@ -145,13 +147,19 @@
             this.baseDatosToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.baseDatosToolStripButton.Name = "baseDatosToolStripButton";
             this.baseDatosToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.baseDatosToolStripButton.Text = "toolStripButton5";
+            this.baseDatosToolStripButton.Text = "Datos";
             // 
             // UsuarioActualtoolStripStatusLabel
             // 
             this.UsuarioActualtoolStripStatusLabel.Name = "UsuarioActualtoolStripStatusLabel";
             this.UsuarioActualtoolStripStatusLabel.Size = new System.Drawing.Size(197, 17);
             this.UsuarioActualtoolStripStatusLabel.Text = "Usuario actual: @UsuarioAtenticado";
+            // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirToolStripMenuItem.Text = "Abrir";
             // 
             // DashboardForm
             // 
@@ -188,8 +196,9 @@
         private System.Windows.Forms.ToolStripButton tiempoToolStripButton;
         private System.Windows.Forms.StatusStrip PrincipalStatusStrip;
         private System.Windows.Forms.ToolStripButton checkToolStripButton;
-        private System.Windows.Forms.ToolStripButton sexoToolStripButton;
+        private System.Windows.Forms.ToolStripButton EstudianteToolStripButton;
         private System.Windows.Forms.ToolStripButton baseDatosToolStripButton;
         private System.Windows.Forms.ToolStripStatusLabel UsuarioActualtoolStripStatusLabel;
+        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
     }
 }
