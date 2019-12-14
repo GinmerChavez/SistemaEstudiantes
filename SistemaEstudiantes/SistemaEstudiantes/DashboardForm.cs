@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace SistemaEstudiantes
 {
+
     public partial class DashboardForm : Form
     {
         public DashboardForm()
@@ -24,7 +25,7 @@ namespace SistemaEstudiantes
 
         private void DashboardForm_Load(object sender, EventArgs e)
         {
-
+            new BienvenidaSistemaForm().ShowDialog();
         }
     }
 }

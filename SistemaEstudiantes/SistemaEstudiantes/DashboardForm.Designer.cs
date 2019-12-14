@@ -169,6 +169,7 @@
             this.Controls.Add(this.PrincipalStatusStrip);
             this.Controls.Add(this.PrincipalToolStrip);
             this.Controls.Add(this.PrincipalMenuStrip);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.PrincipalMenuStrip;
             this.Name = "DashboardForm";
