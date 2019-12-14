@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UNA.DashBoard.Objetos;
 
 namespace SistemaEstudiantes
 {
 
     public partial class DashboardForm : Form
     {
+        private Usuario usuario;
+
         public DashboardForm()
         {
             InitializeComponent();
@@ -25,7 +28,16 @@ namespace SistemaEstudiantes
 
         private void DashboardForm_Load(object sender, EventArgs e)
         {
-            new BienvenidaSistemaForm().ShowDialog();
+            BienvenidaSistemaForm bForm = new BienvenidaSistemaForm();
+              if(  bForm.ShowDialog()==DialogResult.OK){
+                usuario = bForm.Usuario;
+
+                UsuarioActualtoolStripStatusLabel.Text = usuario.Nombre;
+            }
+            else
+            {
+                this.Close();
+            }
         }
     }
 }
