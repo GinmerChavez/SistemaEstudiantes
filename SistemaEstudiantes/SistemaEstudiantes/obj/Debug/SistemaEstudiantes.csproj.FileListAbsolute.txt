@@ -1,0 +1,10 @@
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\bin\Debug\SistemaEstudiantes.exe.config
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\bin\Debug\SistemaEstudiantes.exe
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\bin\Debug\SistemaEstudiantes.pdb
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\obj\Debug\SistemaEstudiantes.csprojAssemblyReference.cache
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\obj\Debug\SistemaEstudiantes.Properties.Resources.resources
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\obj\Debug\SistemaEstudiantes.csproj.GenerateResource.cache
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\obj\Debug\SistemaEstudiantes.csproj.CoreCompileInputs.cache
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\obj\Debug\SistemaEstudiantes.exe
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\obj\Debug\SistemaEstudiantes.pdb
+C:\Users\304950089\Documents\GitHub\SistemaEstudiantes\SistemaEstudiantes\SistemaEstudiantes\obj\Debug\SistemaEstudiantes.BienvenidaSistemaForm.resources
