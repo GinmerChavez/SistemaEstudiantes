@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using UNA.DashBoard.Objetos;
 
-namespace SistemaEstudiantes
+namespace UNA.DashBoard.Formularios
 {
     public partial class BienvenidaSistemaForm : Form
     {

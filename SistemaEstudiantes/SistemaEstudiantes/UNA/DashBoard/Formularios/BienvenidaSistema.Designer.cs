@@ -1,4 +1,4 @@
-﻿namespace SistemaEstudiantes
+﻿namespace UNA.DashBoard.Formularios
 {
     partial class BienvenidaSistemaForm
     {
